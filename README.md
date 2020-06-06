@@ -8,8 +8,9 @@ objetosci, zaleznie od wybranej figury: szecianu lub kwadratu.
 
 Instalacja programu:
 Aby zainstaloiwac program nalezy kolejno wykonac nastepujace komendy:
-1.  autoreconf --install
-2.  automake
-3.  ./configure
-4.  make
-5.  ./Pole_objetosc_figur
+1.  automake --add-missing
+2.  libtolize -i
+3.  autoconf
+4.  ./configure
+5.  make
+6.  ./Pole_objetosc_figur
